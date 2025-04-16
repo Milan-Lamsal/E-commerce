@@ -1,0 +1,25 @@
+1. Packages installed
+React-Router-DOM -> This package used in React to handle navigation between different pages(or "routes") without reloading the whole website
+
+2. react-toastify
+This package helps you show beautiful, easy to use notification messages(called "toasts") in your react app. 
+Shows pop up notification (success, error, warning, info when something happens) and disappers after a few seconds  
+
+3. folder structure
+
+a. pages- multiple pages like cart pages, order page , home page, about page, 
+b. Components- mutiple Components that we can reuse in our project 
+c. Context- one context file using we can manage our e-commerce project 
+
+4. Setup Route (using REACT ROUTER DOM )
+In the main.jsx
+import {BrowserRouter} from 'react-router-dom'
+<BrowserRouter>
+    <App />
+ <BrowserRouter/>
+
+5. Import {NavLink} from 'react-router-dom'
+-It is used to create navigation links that allow users to navigate between different views or pages within a single-page application (SPA). 
+
+
+
