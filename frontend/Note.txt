@@ -24,5 +24,7 @@ hr-> horizontal row its a tag
 
 Whenever we are opening any route so in that class name it will add the {active} class name automatically, 
 
+6.Context -> We will use all the common variable and state variables at one place 
+Context Provider is basically a way to share data(state, functions, or values ) with multiple components without prp drilling.
 
 
