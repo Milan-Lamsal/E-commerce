@@ -20,6 +20,9 @@ import {BrowserRouter} from 'react-router-dom'
 
 5. Import {NavLink} from 'react-router-dom'
 -It is used to create navigation links that allow users to navigate between different views or pages within a single-page application (SPA). 
+hr-> horizontal row its a tag 
+
+Whenever we are opening any route so in that class name it will add the {active} class name automatically, 
 
 
 
