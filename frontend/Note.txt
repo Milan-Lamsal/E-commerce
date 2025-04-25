@@ -28,3 +28,5 @@ Whenever we are opening any route so in that class name it will add the {active}
 Context Provider is basically a way to share data(state, functions, or values ) with multiple components without prp drilling.
 
 7. Using Location hook - to get the path of the location 
+
+8. toastify -> using it for notification 
