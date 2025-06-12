@@ -99,3 +99,7 @@ on razorpay stripe validator cloudinary bcrypt
 | nodemon      | Dev Tool      | Auto-restart server on file change |
 
 
+While creating an MongoDB database then don't use the "@" in passwords otherwise you
+ wil get error
+
+
