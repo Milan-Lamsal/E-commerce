@@ -102,4 +102,17 @@ on razorpay stripe validator cloudinary bcrypt
 While creating an MongoDB database then don't use the "@" in passwords otherwise you
  wil get error
 
+ 1. validator
+Library for validating and sanitizing strings (like emails, passwords, phone numbers, etc.)
+
+2. bcrypt
+Library for hashing and comparing passwords securely
+
+Plaintext passwords are dangerous to store — bcrypt turns them into secure hashes.
+
+For example:
+
+Original Password	Hashed Password (example)
+mypassword123	$2b$10$4GzRgN1yrA1o4A7OL8Q0LeZ...
+
 
