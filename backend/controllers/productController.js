@@ -18,7 +18,6 @@ const addProduct = async (req, res) => {
             images.map(async (item) => {
                 let result = await cloudinary.uploader.upload(item.path, { resource_type: 'image' })
                 return result.secure_url
-
             })
         )
         // Saving these data in  MongoDB
@@ -53,9 +52,28 @@ const addProduct = async (req, res) => {
 //function for list product
 const listProduct = async (req, res) => {
 
+    try {
+        const products = await productModel.find({});
+        res.json({ sucess: true, products })
+
+    } catch (error) {
+        console.log(error)
+        res.json({ success: false, message: error.message })
+
+    }
+
 }
 //function for removing product
 const removeProduct = async (req, res) => {
+    try {
+        await productModel.findByIdAndDelete(req.body.id)
+        res.json({ success: true, message: "Product Removed" })
+
+    } catch (error) {
+        console.log(error)
+        res.json({ success: false, message: error.message })
+
+    }
 
 }
 //function for single product info
